@@ -44,7 +44,7 @@
 
 > ssh -i ~/.ssh/{key-pair-name}.pem ec2-user@{public-ip-of-your-ec2-instance}
 
-![alt text](/assets/img/security-group-2.png "Security Group")
+![alt text](/assets/img/ssh.png "SSH")
 
 - Install the **apache** server.
 
