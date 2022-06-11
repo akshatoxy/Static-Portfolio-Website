@@ -68,7 +68,7 @@
 
 - After that **copy** the contents of the clone folder to apache html location.
 
-> cp -r Static-Portfolio-Website/* /var/www/html/
+> sudo cp -r Static-Portfolio-Website/* /var/www/html/
 
 - Now the server is serving our static website but we won't be able to access it because the security group has no such inbound rule. So, to access the website we have to add the inbound rule to the security group.
 
@@ -85,3 +85,5 @@
 - Copy the **Public IP** and paste it into a browser. You should be able to see your website.
 
 ***
+
+### Note: Use **http://{PublicIP}** to visit the website. By default your browser will add **https://** if you only provide public IP.
