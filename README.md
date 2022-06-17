@@ -1,4 +1,4 @@
-# [Static Website Portfolio](https://akshatoxy.github.io/Static-Portfolio-Website/)
+# [Static Website Portfolio](https://akshatoxy.github.io/static-portfolio-website/)
 
 - Provision an EC2 instance on AWS.
 - Install Apache Server.
